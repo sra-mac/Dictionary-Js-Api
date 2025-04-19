@@ -97,3 +97,18 @@ body{
 	margin-top:  80px;
 	text-align: center;
 }
+
+#semelhantes {
+    display: grid;
+    grid-template-columns: repeat(5, 10fr);
+    row-gap: 20%;
+}
+
+spam{
+	display: flex;
+	margin: 3% 0;
+}
+
+#semelhantes p{
+	cursor: pointer;
+}
